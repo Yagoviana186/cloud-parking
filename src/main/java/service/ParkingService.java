@@ -34,4 +34,23 @@ public class ParkingService {
         }
         return parkingList;
     }
+
+    public void delete(String id) {
+    findById(id);
+    }
+
+    private void findById(String id) {
+    }
+
+    public void get(String id) {
+        findById(id);
+            }
+    public void post(String id) {
+            findById(id);
+            }
+
+    public void put(String id) {
+            findById(id);
+            }
+    
 }
